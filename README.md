@@ -1,4 +1,4 @@
-# 💰 機器人 on GitHub Action 💰
+# 💰 簽到機器人 on GitHub Action 💰
 
 ## 蝦皮簽到機器人 on GitHub Action!
 
