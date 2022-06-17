@@ -26,7 +26,7 @@
 
 4. 重複步驟 2. 和 3.，在 Name 欄位中填入 `SHOPEE_PASSWORD`、在 Value 欄位中填入你的蝦皮密碼並儲存。
 
-5. 到[這個網站](https://freeaeskey.xyz/) 生成一份金鑰，這份金鑰是用來加密你的 cookie 用的。這份金鑰不能外流，不然以後會被盜帳。
+5. 到[這個網站](https://freeaeskey.xyz/)生成一份金鑰，這份金鑰是用來加密你的 cookie 用的。這份金鑰不能外流，不然以後會被盜帳。
 
    > ![aes-key](img/aeskey.png)
 
