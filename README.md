@@ -4,6 +4,8 @@
 
 💰💰 自動化每日簽到領蝦幣 💰💰
 
+- [機器人原始碼](https://github.com/wdzeng/shopee-coins-bot)
+
 ### 使用步驟
 
 0. 準備一個 GitHub 帳號。
