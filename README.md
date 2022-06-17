@@ -10,12 +10,14 @@
 
 0. 準備一個 GitHub 帳號。
 
-1. 請將這份專案 fork 到你的帳號下。
+1. 請將這份專案 fork 到你的帳號下。拜託給星星。
 
     > ![fork](img/fork-1.png)
-    >  請選擇右上角的 Fork 按鈕
+    >
+    > 請選擇右上角的 Fork 按鈕
 
     > ![fork](img/fork-2.png)
+    >
     > 按 Create fork
 
 2. 進入你的專案的設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
