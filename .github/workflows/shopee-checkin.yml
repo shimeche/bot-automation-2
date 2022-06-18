@@ -11,7 +11,24 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-      - uses: wdzeng/shopee-coins-bot@main
+      - name: Check inputs
+        if: ${{ github.event_name == 'workflow_dispatch' }}
+        run: |
+          exit_code=0
+          if [[ -z '${{ secrets.SHOPEE_USERNAME }}' ]]; then
+            echo '你沒有設定帳號，請檢查設定或參考使用說明。'
+            echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
+            exit_code=1
+          fi
+          if [[ -z '${{ secrets.SHOPEE_USERNAME }}' ]]; then
+            echo '你沒有設定密碼，請檢查設定或參考使用說明。'
+            echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
+            exit_code=1
+          fi
+          exit $exit_code
+
+      - name: Run checkin bot 
+        uses: wdzeng/shopee-coins-bot@main
         with:
           key: ${{ secrets.AES_KEY }}
           username: ${{ secrets.SHOPEE_USERNAME }}
