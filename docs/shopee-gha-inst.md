@@ -1,6 +1,8 @@
 # 蝦皮簽到機器人使用說明
 
-這份文章說明如何使用 GitHub actions 架設屬於自己的蝦皮簽到機器人。關於蝦皮機器人的原始碼以及 Docker 操作方式，請參考[蝦皮簽到機器人原始專案](https://github.com/wdzeng/shopee-coins-bot)。
+這篇文章說明的是如何使用 GitHub actions 架設屬於自己的蝦皮簽到機器人。
+
+如果你要找的是蝦皮機器人的原始碼或 Docker 操作方式，請右轉[蝦皮簽到機器人原始專案](https://github.com/wdzeng/shopee-coins-bot)。
 
 ## 準備
 
