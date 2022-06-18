@@ -25,5 +25,6 @@
 
 - 電子信箱：me@hyperbola.me
 - [Telegram](t.me/hyperbola_cc)
+- 直接發 issue 也可以
 
 若有發現任何錯誤 bug，歡迎開啟 issue 或 PR。感謝您！
