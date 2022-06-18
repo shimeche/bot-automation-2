@@ -34,6 +34,8 @@
 
     > ![aeskey](../ing/../img/aeskey.png)
 
+    事實上金鑰就只是 64 個隨機 0-9 和 a-f 的英數字組成而已，你要自己生也行。
+
 2. 進入你的專案的設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
 
     > ![secrets](../img/secrets-1.png)
