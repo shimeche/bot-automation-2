@@ -68,6 +68,10 @@
 
     > ![workflow](../img/workflow-3.png)
 
+   如果失敗，會呈現下圖。這可能是因為帳號或密碼錯誤的關係，請回到上述重新進行設定。如果沒有頭緒，煩請您聯絡開發者 (me@hyperbola.me) 或開啟 issue。
+
+   > ![failure](../img/workflow-failure.png)
+
 至此，我們已經完成第一次手動機器人簽到。
 
 ## 自動簽到
