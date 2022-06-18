@@ -1,0 +1,19 @@
+name: 蝦皮每日簽到（Debug 用）
+
+on:
+  workflow_dispatch: ~
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    # Run cron at 08:10 UTC+8
+    - cron:  '10 0 * * *'
+
+jobs:
+  checkin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wdzeng/shopee-coins-bot@actions/debug
+        with:
+          key: ${{ secrets.AES_KEY }}
+          username: ${{ secrets.SHOPEE_USERNAME }}
+          password: ${{ secrets.SHOPEE_PASSWORD }}
+          login: ${{ (github.event_name == 'schedule') && 'credential' || 'password' }}
