@@ -16,12 +16,12 @@ jobs:
         run: |
           exit_code=0
           if [[ -z '${{ secrets.SHOPEE_USERNAME }}' ]]; then
-            echo '你沒有設定帳號，請檢查設定或參考使用說明。'
+            echo '你沒有設定帳號，請檢查設定或參考使用說明。帳號的 Name 欄位必須是 "SHOPEE_USERNAME"（不含引號），請再確認一次。'
             echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
             exit_code=1
           fi
           if [[ -z '${{ secrets.SHOPEE_PASSWORD }}' ]]; then
-            echo '你沒有設定密碼，請檢查設定或參考使用說明。'
+            echo '你沒有設定密碼，請檢查設定或參考使用說明。密碼的 Name 欄位必須是 "SHOPEE_PASSWORD"（不含引號），請再確認一次。'
             echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
             exit_code=1
           fi
