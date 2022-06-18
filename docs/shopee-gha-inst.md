@@ -14,13 +14,17 @@
 
 請將這份專案 fork 到你的帳號下。拜託給星星。
 
-> **Warning**
->
-> 你要 fork 的就是你現在正在看的這份專案，不是原始碼那份專案喔！
 
 > ![fork](../img/fork-1.png?)
 >
 > 請選擇右上角的 Fork 按鈕
+
+
+- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
+- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
+- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
+
+因為很重要所以要說三遍。
 
 > ![fork](../img/fork-2.png)
 >
