@@ -26,6 +26,8 @@
 
 1. 到[這個網站](https://freeaeskey.xyz/)生成一份金鑰，這份金鑰是用來加密你的 cookie 用的。金鑰不要外流，會被盜帳。
 
+    > ![aeskey](../ing/../img/aeskey.png)
+
 2. 進入你的專案的設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
 
     > ![secrets](../img/secrets-1.png)
