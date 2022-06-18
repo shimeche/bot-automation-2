@@ -24,5 +24,6 @@
 如果你有遇到難以解決的設定問題，可以聯絡作者。
 
 - 電子信箱：me@hyperbola.me
+- [Telegram](t.me/hyperbola_cc)
 
 若有發現任何錯誤 bug，歡迎開啟 issue 或 PR。感謝您！
