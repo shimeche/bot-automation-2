@@ -20,7 +20,7 @@ jobs:
             echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
             exit_code=1
           fi
-          if [[ -z '${{ secrets.SHOPEE_USERNAME }}' ]]; then
+          if [[ -z '${{ secrets.SHOPEE_PASSWORD }}' ]]; then
             echo '你沒有設定密碼，請檢查設定或參考使用說明。'
             echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
             exit_code=1
