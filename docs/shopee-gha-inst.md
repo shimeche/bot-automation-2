@@ -24,7 +24,7 @@
 
 ### 設定帳號、密碼與加密金鑰
 
-這個機器人將來會需要你的 cookie 來做自動登入。但是，GitHub 上幾乎所有東西都是公開的，因此我們需要對資料進行加密。
+這個機器人將來會需要你的 cookie 來做自動登入，cookie 將會儲存在你的專案上。但是，GitHub 專案上的東西都是公開的，因此我們需要對 cookie 進行加密。
 
 1. 到[這個網站](https://freeaeskey.xyz/)生成一份金鑰，這份金鑰是用來加密你的 cookie 用的。金鑰不要外流，會被盜帳。
 
@@ -34,17 +34,15 @@
 
     > ![secrets](../img/secrets-1.png)
 
-3. 儲存需要的資料並儲存。
+3. 儲存需要的資料並儲存。需要填寫的的資料如下：
 
-    > ![secrets](../img/secrets-2.png)
-
-    需要的資料如下：
-
-    | Name | Value |
-    |------| ----- |
+    | Name 欄位 | Value 欄位 |
+    | ------ | ----- |
     | `SHOPEE_USERNAME` | 蝦皮帳號，可以是電子信箱、手機號碼或 ID。 |
     | `SHOPEE_PASSWORD` | 蝦皮密碼。 |
     | `AES_KEY` | 步驟 1. 產生的金鑰。 |
+    
+    > ![secrets](../img/secrets-2.png)
 
 ### 設定機器人的權限
 
