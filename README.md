@@ -21,4 +21,6 @@
 
 ## Pinkoi 簽到機器人 on GitHub Action!
 
-製作中 🏄‍♂️🏄‍♂️
+教學製作中 🏄‍♂️🏄‍♂️
+
+機器人開發已完成，原始碼請見 [Pinkoi Coins Bot](https://github.com/wdzeng/pinkoi-coins-bot)！
