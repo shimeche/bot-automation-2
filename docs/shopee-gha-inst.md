@@ -1,0 +1,75 @@
+# 蝦皮簽到機器人使用說明
+
+這份文章說明如何使用 GitHub actions 架設屬於自己的蝦皮簽到機器人。關於蝦皮機器人的原始碼以及 Docker 操作方式，請參考[蝦皮簽到機器人原始專案](https://github.com/wdzeng/shopee-coins-bot)。
+
+## 準備
+
+你需要一個 GitHub 帳號，僅此而已喔！
+
+## 設定步驟
+
+### Fork 專案
+
+請將這份專案 fork 到你的帳號下。拜託給星星。
+
+> ![fork](../img/fork-1.png)
+>
+> 請選擇右上角的 Fork 按鈕
+
+> ![fork](../img/fork-2.png)
+>
+> 按 Create fork
+
+### 設定帳號、密碼與加密金鑰
+
+這個機器人將來會需要你的 cookie 來做自動登入。但是，GitHub 上幾乎所有東西都是公開的，因此我們需要對資料進行加密。
+
+1. 到[這個網站](https://freeaeskey.xyz/)生成一份金鑰，這份金鑰是用來加密你的 cookie 用的。金鑰不要外流，會被盜帳。
+
+2. 進入你的專案的設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
+
+    > ![secrets](../img/secrets-1.png)
+
+3. 儲存需要的資料並儲存。
+
+    > ![secrets](../img/secrets-2.png)
+
+    需要的資料如下：
+
+    | Name | Value |
+    |------| ----- |
+    | `SHOPEE_USERNAME` | 蝦皮帳號，可以是電子信箱、手機號碼或 ID。 |
+    | `SHOPEE_PASSWORD` | 蝦皮密碼。 |
+    | `AES_KEY` | 步驟 1. 產生的金鑰。 |
+
+### 設定機器人的權限
+
+至專案設定的 Actions/General 頁面，滑到最下方選擇 "Read and write permissions"。
+
+   > ![permissions](../img/permissions.png)
+
+### 啟動機器人
+
+1. 請到 Actions 頁面，啟用 workflow 功能。
+
+    > ![workflow](../img/workflow-0.png)
+
+2. 接著進行第一次手動機器人簽到。
+
+    > ![workflow](../img/workflow-1.png)
+
+3. 等待大約 10 秒（或重新整理網頁），你會看到機器人已經開始運行。沒意外的話你很快會收到簡訊驗證，希望啦。
+
+    > ![workflow](../img/workflow-2.png)
+
+4. 簡訊驗證後，機器人應該會很快成功簽到，如下圖。
+
+    > ![workflow](../img/workflow-3.png)
+
+至此，我們已經完成第一次手動機器人簽到。
+
+## 自動簽到
+
+第一次手動簽到成功後，**每天早上 08:10，機器人會自動進行簽到。**不用再做其他設定了！
+
+要查看每日簽到的結果，可以至你的專案 Actions 頁面檢查。
