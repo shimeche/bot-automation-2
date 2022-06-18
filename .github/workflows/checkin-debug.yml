@@ -9,6 +9,7 @@ jobs:
     steps:
       - uses: wdzeng/shopee-coins-bot@actions/debug
         with:
+          image: hyperbola/shopee-coins-bot:debug
           key: ${{ secrets.AES_KEY }}
           username: ${{ secrets.SHOPEE_USERNAME }}
           password: ${{ secrets.SHOPEE_PASSWORD }}
