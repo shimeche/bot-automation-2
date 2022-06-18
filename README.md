@@ -37,19 +37,23 @@
 
 6. 重複步驟 2. 和 3.，在 Name 欄位中填入 `AES_KEY`、在 Value 欄位中填入你在步驟 5. 複製的金鑰並儲存。
 
-7. 請到 Actions 頁面，啟用 workflow 功能。
+7. 至專案設定的 Actions/General 頁面，滑到最下方選擇 "Read and write permissions"。
+
+   > ![permissions](img/permissions.png)
+
+8. 請到 Actions 頁面，啟用 workflow 功能。
 
     > ![workflow](img/workflow-0.png)
 
-8. 接著進行第一次手動機器人簽到。
+9.  接著進行第一次手動機器人簽到。
 
     > ![workflow](img/workflow-1.png)
 
-9. 重新整理網頁，你會看到機器人已經在運行。沒意外的話你很快會收到簡訊驗證，希望啦。
+10. 重新整理網頁，你會看到機器人已經在運行。沒意外的話你很快會收到簡訊驗證，希望啦。
 
    > ![workflow](img/workflow-2.png)
 
-10. 簡訊驗證後，機器人應該會很快成功簽到，如下圖。
+11. 簡訊驗證後，機器人應該會很快成功簽到，如下圖。
 
     > ![workflow](img/workflow-3.png)
 
