@@ -11,7 +11,7 @@ jobs:
   checkin:
     runs-on: ubuntu-latest
     steps:
-      - uses: wdzeng/shopee-coins-bot@action
+      - uses: wdzeng/shopee-coins-bot@main
         with:
           key: ${{ secrets.AES_KEY }}
           username: ${{ secrets.SHOPEE_USERNAME }}
