@@ -4,8 +4,8 @@ on:
   workflow_dispatch: ~
   schedule:
     # * is a special character in YAML so you have to quote this string
-    # Run cron at 08:07 UTC+8
-    - cron:  '7 0 * * *'
+    # Run cron at 08:10 UTC+8
+    - cron:  '10 0 * * *'
 
 jobs:
   checkin:
