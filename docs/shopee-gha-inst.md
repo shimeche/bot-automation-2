@@ -68,7 +68,7 @@
 
     > ![workflow](../img/workflow-3.png)
 
-   如果失敗，會呈現下圖。請參考[疑難排解](#疑難排解)。如果沒有頭緒，煩請您聯絡開發者 (me@hyperbola.me) 或開啟 issue。
+   如果失敗，會呈現下圖。請參考[疑難排解](#疑難排解)。如果沒有頭緒，請參考[錯誤回報](#錯誤回報)。
 
    > ![failure](../img/workflow-failure.png)
 
@@ -96,3 +96,17 @@
 | 4       | 操作逾時，可能是久沒有執行簡訊驗證。如果你根本沒收到簡訊，可能是蝦皮那邊繼簡訊出問題，也有可能是 bug；如果已經點的簡訊驗證，這大概是機器人的 bug。煩請您回報開發者。 |
 | 69      | 因為短時間內嘗試登入次數過多被蝦皮 ban 了。只能一段時間後再試試看。 |
 | 87      | 帳號或密碼錯誤。 |
+
+## 錯誤回報
+
+如果你沒有任何頭緒，或覺得問題可能出在機器人本身，可以發個 [issue](https://github.com/wdzeng/bot-automation/issues) 給作者。
+
+回報時，以下幾點值得提及：
+
+- 你的密碼少於 8 個字或超過 16 個字（可參考[此回報](https://github.com/wdzeng/shopee-coins-bot/issues/4)）
+- 你的帳號或密碼含有特殊符號（空格、括號、錢字號、引號等）
+
+作者的其他聯繫方式：
+
+- 電子信箱：me@hyperbola.me
+- [Telegram](https://t.me/hyperbola_cc)
