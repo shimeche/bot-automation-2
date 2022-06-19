@@ -14,11 +14,9 @@
 
 請將這份專案 fork 到你的帳號下。拜託給星星。
 
-
 > ![fork](../img/fork-1.png?)
 >
 > 請選擇右上角的 Fork 按鈕
-
 
 - 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
 - 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
