@@ -16,16 +16,22 @@ jobs:
         env:
           SHOPEE_USERNAME: ${{ secrets.SHOPEE_USERNAME }}
           SHOPEE_PASSWORD: ${{ secrets.SHOPEE_PASSWORD }}
+          AES_KEY: ${{ secrets.AES_KEY }}
         run: |
           exit_code=0
           if [[ -z "$SHOPEE_USERNAME" ]]; then
-            echo '你沒有設定帳號，請檢查設定或參考使用說明。帳號的 Name 欄位必須是 "SHOPEE_USERNAME"（不含引號），請再確認一次。'
-            echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
+            printf '::error::你沒有設定帳號，請檢查設定或參考使用說明。帳號的 Name 欄位必須是 "SHOPEE_USERNAME"（不含引號），請再確認一次。\nhttps://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md\n'
             exit_code=1
           fi
           if [[ -z "$SHOPEE_PASSWORD" ]]; then
-            echo '你沒有設定密碼，請檢查設定或參考使用說明。密碼的 Name 欄位必須是 "SHOPEE_PASSWORD"（不含引號），請再確認一次。'
-            echo 'https://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md'
+            printf '::error::你沒有設定密碼，請檢查設定或參考使用說明。密碼的 Name 欄位必須是 "SHOPEE_PASSWORD"（不含引號），請再確認一次。\nhttps://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md\n'
+            exit_code=1
+          fi
+          if [[ -z "$AES_KEY" ]]; then
+            printf '::error::你沒有設定金鑰，請檢查設定或參考使用說明。金鑰的 Name 欄位必須是 "AES_KEY"（不含引號），請再確認一次。\nhttps://github.com/wdzeng/bot-automation/blob/main/docs/shopee-gha-inst.md\n'
+            exit_code=1
+          elif [[ ! "$AES_KEY" =~ ^[0-9a-fA-f]{64}$ ]]; then
+            echo '::error::金鑰不符合格式，必須是 64 個 0-9 或 a-f 的英數字組合。'
             exit_code=1
           fi
           exit $exit_code
