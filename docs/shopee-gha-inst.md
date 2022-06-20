@@ -9,7 +9,7 @@
 1. 如果你使用了機器人之後發現架不起來或不適用，請[關閉機器人](#關閉機器人)，不要放著機器人每天跑、每天失敗。Actions 是 GitHub 提供給大家的免費資源，請發揮公德心，珍惜使用。
 2. 如果你有任何問題，在詢問開發者之前，請先看過[疑難排解](#疑難排解)。此外，可以逛逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定已經有人發問過了。
 3. 除非涉及你的個人隱私，否則請一律在 [issues](https://github.com/wdzeng/bot-automation/issues?q=) 發問。涉及隱私的問題請透過[電子郵件](mailto:me@hyperbola.me)或 [Telegram](https://t.me/hyperbola_cc) 聯絡；如果你透過其他方式找到我的聯絡管道（臉書、Line 等），請不要以此方式聯繫我。
-4. 請至少每兩個月進行[更新](#更新)一次機器人，否則 GitHub 會把你的機器人排程關掉。
+4. 目前機器人剛上線，還在測試階段。待未來進入正式階段後，請一定要[更新機器人](#更新)；否則你的機器人會在兩個月後自動停用。
 
 ## 準備
 
@@ -19,21 +19,23 @@
 
 ### Fork 專案
 
-請將這份專案 fork 到你的帳號下。拜託給星星。
+請將這份專案 fork（複製之意）到你的帳號下，如果可以的話，請給我一個 star。
 
 > ![fork](../img/fork-1.png?)
 >
 > 請選擇右上角的 Fork 按鈕
 
-- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
-- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
-- 不要 fork shopee-coins-bot，那是原始碼專案，要 fork 你現在在看的這個才對。
+- 不要 fork shopee-coins-bot，那是原始碼專案，你不會需要它。要 fork 你現在在看的這份專案 bot-automation 才對。
+- 不要 fork shopee-coins-bot，那是原始碼專案，你不會需要它。要 fork 你現在在看的這份專案 bot-automation 才對。
+- 不要 fork shopee-coins-bot，那是原始碼專案，你不會需要它。要 fork 你現在在看的這份專案 bot-automation 才對。
 
 因為很重要所以要說三遍。
 
 > ![fork](../img/fork-2.png)
 >
 > 按 Create fork
+
+沒有意外的話，你的專案網址會是 <span>https://github.com/你的ID/bot-automation</span>。
 
 ### 設定帳號、密碼與加密金鑰
 
@@ -45,11 +47,11 @@
 
     事實上金鑰就只是 64 個隨機 0-9 和 a-f 的英數字組成而已，你要自己生也行。
 
-2. 進入你的專案的設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
+2. 進入你的專案的 Settings 設定頁面，然後選擇左邊 Secrets 下的 Actions 選項，然後按 New repository secret 按鈕。
 
     > ![secrets](../img/secrets-1.png)
 
-3. 填寫需要的資料如下。因為有三份資料，所以這個步驟要執行三次。
+3. 你會看到有 Name 欄位和 Value 欄位。填寫需要的資料如下。因為有三份資料，所以這個步驟要執行三次。
 
     | Name 欄位 | Value 欄位 |
     | ------ | ----- |
