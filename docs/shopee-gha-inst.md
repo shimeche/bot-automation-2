@@ -6,7 +6,7 @@
 
 ## 須知
 
-1. 如果你使用了機器人之後發現架不起來或不適用，請關掉機器人，不要放著機器人每天跑、每天失敗。Actions 是 GitHub 提供給大家的免費資源，請發揮公德心，珍惜使用。
+1. 如果你使用了機器人之後發現架不起來或不適用，請[關掉機器人](#關掉機器人)，不要放著機器人每天跑、每天失敗。Actions 是 GitHub 提供給大家的免費資源，請發揮公德心，珍惜使用。
 2. 如果你有任何問題，在詢問開發者之前，請先看過[疑難排解](#疑難排解)。此外，可以逛逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定已經有人發問過了。
 3. 除非涉及你的個人隱私，否則請一律在 [issues](https://github.com/wdzeng/bot-automation/issues?q=) 發問。涉及隱私的問題請透過[電子郵件](mailto:me@hyperbola.me)或 [Telegram](https://t.me/hyperbola_cc) 聯絡；如果你透過其他方式找到我的聯絡管道（臉書、Line 等），請不要以此方式聯繫我。
 4. 請至少每兩個月進行[更新](#更新)一次機器人，否則 GitHub 會把你的機器人排程關掉。
@@ -110,6 +110,14 @@
 > ![update](../img/update.png)
 
 如果你發現按鈕沒有出現在畫面上，表示已經是最新版。
+
+## 關閉機器人
+
+關掉機器人的方法如下：
+
+![image](https://user-images.githubusercontent.com/39057640/174522328-a7e329a2-5d6e-4e03-999d-9fe2b39ca0b2.png)
+
+日後要重新開啟時，按照同樣的步驟恢復即可。
 
 ## 疑難排解
 
