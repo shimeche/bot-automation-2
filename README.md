@@ -9,7 +9,7 @@
 | 商店 | 任務 | 原始碼 | 操作說明 |
 | --- | ---- | ------ | ----- |
 | [![shopee](img/shopee.png)](https://shopee.tw/) | 每日簽到領蝦幣 | [蝦皮簽到機器人](https://github.com/wdzeng/shopee-coins-bot) | [👉請按我](docs/shopee-gha-inst.md)
-| [![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/) | 每日簽到領 P 幣 | [Pinkoi 簽到機器人](https://github.com/wdzeng/pinkoi-coins-bot) | 製作中 |
+| [![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/) | 每日簽到領 P 幣 | [Pinkoi 簽到機器人](https://github.com/wdzeng/pinkoi-coins-bot) | 製作中<br>開發者近期非常忙碌，最快要等到七月才會完工 😢😢 |
 
 ## 更新
 
