@@ -1,5 +1,3 @@
-# [公告區](https://github.com/wdzeng/bot-automation/issues)有重要事項，請各位使用者看一下。
-
 # 💰 簽到機器人 on GitHub Action 💰
 
 💰💰 自動化每日簽到領錢錢 💰💰
