@@ -149,7 +149,7 @@
 
 ### 錯誤回報
 
-如果你沒有任何頭緒，或覺得問題可能出在機器人本身，可以在 [issue](https://github.com/wdzeng/bot-automation/issues) 區提出問題或回報錯誤。
+如果你沒有任何頭緒，或覺得問題可能出在機器人本身，可以在 [issue](https://github.com/wdzeng/bot-automation/issues?q=) 區提出問題或回報錯誤。
 
 描述問題時，以下幾點值得提及：
 
@@ -161,7 +161,7 @@
 
 ### 聯繫方式
 
-以下是開發者的其他聯繫方式。**除非你有私密訊息要傳達**，否則請一律到 [issue](https://github.com/wdzeng/bot-automation/issues) 區發問。
+以下是開發者的其他聯繫方式。**除非你有私密訊息要傳達**，否則請一律到 [issue](https://github.com/wdzeng/bot-automation/issues?q=) 區發問。
 
 - 電子信箱：me@hyperbola.me
 - [Telegram](https://t.me/hyperbola_cc)
