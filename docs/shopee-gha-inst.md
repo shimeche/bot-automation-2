@@ -19,6 +19,10 @@
 
 ## 設定步驟
 
+以下是設定的詳細步驟；你也可以參考[瘋先生的文章](https://mrmad.com.tw/shopee-automatic-sign-in-robot)，他做的圖片比我漂亮多了。
+
+不過，瘋先生文章底下提到，如果有看到 Pull Request（通知更新的意思），表示有更新。這點我澄清一下：因為目前使用者人數太多，我現在已經沒有辦法一個一個發送更新通知了，未來也不會再主動通知更新。請使用者自行[關注更新](https://github.com/wdzeng/bot-automation#%E6%9B%B4%E6%96%B0)。
+
 ### Fork 專案
 
 請將這份專案 fork（複製之意）到你的帳號下，如果可以的話，請給我一個 star。
