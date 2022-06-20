@@ -106,6 +106,10 @@
 
 ## 疑難排解
 
+不妨先逛一逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定有人提出了你想問的問題。
+
+### 第一次手動簽到失敗的應對
+
 機器人失敗的最有可能的原因是因為設定了錯誤的帳號與密碼。請參考[設定帳號、密碼與加密金鑰](#設定帳號密碼與加密金鑰)章節，確定 `SHOPEE_USERNAME`、`SHOPEE_PASSWORD`、`AES_KEY` 沒有設錯或打錯字。
 
 另外可參考 workflow 之錯誤訊息。下圖紅色圈起來的地方表示錯誤代碼。
@@ -123,16 +127,19 @@
 | 87      | 帳號或密碼錯誤。 |
 | 88      | 不明錯誤。請聯繫開發者。 |
 
-## 錯誤回報
+### 錯誤回報
 
-如果你沒有任何頭緒，或覺得問題可能出在機器人本身，可以發個 [issue](https://github.com/wdzeng/bot-automation/issues) 給作者。
+如果你沒有任何頭緒，或覺得問題可能出在機器人本身，可以在 [issue](https://github.com/wdzeng/bot-automation/issues) 區提出問題或回報錯誤。
 
-回報時，以下幾點值得提及：
+描述問題時，以下幾點值得提及：
 
 - 你的密碼少於 8 個字或超過 16 個字（可參考[此回報](https://github.com/wdzeng/shopee-coins-bot/issues/4)）
 - 你的帳號或密碼含有特殊符號（空格、括號、錢字號、引號等）
+- 你的蝦皮帳號沒有綁定手機
+- 你的蝦皮帳號很老或很新
+- 你的蝦皮帳號是在國外註冊的
 
-作者的其他聯繫方式：
+以下是開發者的其他聯繫方式。**除非你有私密訊息要傳達**，否則請一律到 [issue](https://github.com/wdzeng/bot-automation/issues) 區發問。
 
 - 電子信箱：me@hyperbola.me
 - [Telegram](https://t.me/hyperbola_cc)
