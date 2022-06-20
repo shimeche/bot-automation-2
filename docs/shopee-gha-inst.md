@@ -119,7 +119,7 @@
 
 關掉機器人的方法如下：
 
-![image](https://user-images.githubusercontent.com/39057640/174522328-a7e329a2-5d6e-4e03-999d-9fe2b39ca0b2.png)
+![image](https://user-images.githubusercontent.com/39057640/174524326-38884663-dd1d-4805-a5b3-f45f5c6491da.png)
 
 日後要重新開啟時，按照同樣的步驟恢復即可。
 
@@ -145,6 +145,10 @@
 | 69      | 因為短時間內嘗試登入次數過多被蝦皮 ban 了。只能一段時間後再試試看。 |
 | 87      | 帳號或密碼錯誤。 |
 | 88      | 不明錯誤。請聯繫開發者。 |
+
+最棘手的錯誤代碼是 4 和 88，這可能表示機器人有 bug。為了應付這樣的情況，你可以查看螢幕截圖。螢幕截圖可以在下面的地方下載，解壓縮之後就有截圖了。
+
+![image](https://user-images.githubusercontent.com/39057640/174524917-0c07caa6-41ba-4ae4-9395-969aae104915.png)
 
 ### 錯誤回報
 
