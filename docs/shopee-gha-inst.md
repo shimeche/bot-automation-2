@@ -4,6 +4,13 @@
 
 如果你要找的是蝦皮機器人的原始碼或 Docker 操作方式，請右轉[蝦皮簽到機器人原始專案](https://github.com/wdzeng/shopee-coins-bot)。
 
+## 須知
+
+1. 如果你使用了機器人之後發現架不起來或不適用，請關掉它，不要放著他每天跑然後每天失敗。Actions 是 GitHub 提供給大家的免費資源，請發揮公德心，珍惜使用。
+2. 如果你有任何問題，在詢問開發者之前，請先看過[疑難排解](#疑難排解)。此外，可以逛逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定已經有人發問過了。
+3. 除非是私人問題，否則請一律在 [issues](https://github.com/wdzeng/bot-automation/issues?q=) 發問。
+4. 請至少每兩個月進行[更新](#更新)一次，否則 GitHub 會把你的機器人關掉。
+
 ## 準備
 
 你需要一個 GitHub 帳號，僅此而已喔！
