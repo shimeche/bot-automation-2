@@ -5,10 +5,11 @@
 ## 須知
 
 1. 如果你使用了機器人之後發現架不起來或不適用，請[關閉機器人](#關閉機器人)，不要放著機器人每天跑、每天失敗。Actions 是 GitHub 提供給大家的免費資源，請發揮公德心，珍惜使用。
-2. GitHub Actions 排程極容易出現長達數小時的延誤，這是正常現象，因為使用的人實在太多了。所以如果你發現機器人沒有準時執行，請再等一段時間。
-3. 如果你有任何疑問，在詢問開發者之前，請先看過[疑難排解](shopee-issues.md)。此外，可以逛逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定你遇到的問題已經有人遇過。
-4. 除非涉及你的個資或帳號密碼，否則請一律在 [issues](https://github.com/wdzeng/bot-automation/issues?q=) 發問。涉及隱私的問題可以參考我的[聯繫方式](../README.md#聯繫開發者)。
-5. 請自行關注機器人更新，開發者不會主動發布通知。目前機器人剛上線，還在測試階段。待未來進入正式階段後，請**一定**要[更新機器人](#更新)，否則你的機器人會在兩個月後自動停用。
+2. 新辦帳號只執行機器人的情況，可能被 GitHub 視為濫用資源。請參考 GitHub Actions 的[使用政策](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-features#actions)以及這則 [issue](https://github.com/wdzeng/bot-automation/issues/19)。
+3. GitHub Actions 排程極容易出現長達數小時的延誤，這是正常現象，因為使用的人實在太多了。所以如果你發現機器人沒有準時執行，請再等一段時間。
+4. 如果你有任何疑問，在詢問開發者之前，請先看過[疑難排解](shopee-issues.md)。此外，可以逛逛 [issues](https://github.com/wdzeng/bot-automation/issues?q=)，說不定你遇到的問題已經有人遇過。
+5. 除非涉及你的個資或帳號密碼，否則請一律在 [issues](https://github.com/wdzeng/bot-automation/issues?q=) 發問。涉及隱私的問題可以參考我的[聯繫方式](../README.md#聯繫開發者)。
+6. 請自行關注機器人更新，開發者不會主動發布通知。目前機器人剛上線，還在測試階段。待未來進入正式階段後，請**一定**要[更新機器人](#更新)，否則你的機器人會在兩個月後自動停用。
 
 ## 第一次手動簽到
 
