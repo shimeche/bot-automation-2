@@ -1,6 +1,6 @@
-# 💰 簽到機器人 on GitHub Action 💰
+# Automate Your Bot!
 
-💰💰 自動化每日簽到領錢錢 💰💰
+💰 自動化簽到，每日拿錢錢 💰
 
 使用 GitHub Actions 跑機器人，不需要準備自己的機器，完全免費！
 
