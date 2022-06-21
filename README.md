@@ -6,10 +6,19 @@
 
 ## 簽到機器人列表
 
-| 商店 | 任務 | 原始碼 | 操作說明 |
-| --- | ---- | ------ | ----- |
-| [![shopee](img/shopee.png)](https://shopee.tw/) | 每日簽到領蝦幣 | [🤖 蝦皮簽到機器人](https://github.com/wdzeng/shopee-coins-bot) | [📔 設定步驟](docs/shopee-gha-inst.md)<br>[👷‍ 疑難排解](docs/shopee-issues.md)
-| [![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/) | 每日簽到領 P 幣 | [🤖 Pinkoi 簽到機器人](https://github.com/wdzeng/pinkoi-coins-bot) | 製作中<br> |
+[![shopee](img/shopee.png)](https://shopee.tw/)
+ 
+每日簽到領蝦幣！
+ 
+- [📔 點我開始](docs/shopee-gha-inst.md)
+- [👷‍ 疑難排解](docs/shopee-issues.md)
+- [🤖 蝦皮簽到機器人原始碼](https://github.com/wdzeng/shopee-coins-bot)
+
+[![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/)
+
+每日簽到領 P 幣！使用說明製作中。
+
+- [🤖 Pinkoi 簽到機器人原始碼](https://github.com/wdzeng/pinkoi-coins-bot)
 
 開發者近期非常忙碌，Pinkoi 最快要等到七月才會完工 😢😢 以後有時間可能會做其他家的機器人吧（歡迎許願
 
