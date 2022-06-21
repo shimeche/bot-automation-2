@@ -8,7 +8,7 @@
 
 | 商店 | 任務 | 原始碼 | 操作說明 |
 | --- | ---- | ------ | ----- |
-| [![shopee](img/shopee.png)](https://shopee.tw/) | 每日簽到領蝦幣 | [蝦皮簽到機器人](https://github.com/wdzeng/shopee-coins-bot) | [👉請按我](docs/shopee-gha-inst.md)
+| [![shopee](img/shopee.png)](https://shopee.tw/) | 每日簽到領蝦幣 | [蝦皮簽到機器人](https://github.com/wdzeng/shopee-coins-bot) | [👉操作步驟](docs/shopee-gha-inst.md)
 | [![pinkoi](img/pinkoi.png)](https://www.pinkoi.com/) | 每日簽到領 P 幣 | [Pinkoi 簽到機器人](https://github.com/wdzeng/pinkoi-coins-bot) | 製作中<br>開發者近期非常忙碌，最快要等到七月才會完工 😢😢 |
 
 ## 更新
@@ -19,12 +19,10 @@
 
 如果你發現按鈕沒有出現在畫面上，表示已經是最新版。
 
-## 錯誤排解與回報
+## 聯繫開發者
 
-如果你有遇到難以解決的設定問題，可以聯絡作者。
+**除非你有涉及隱私的訊息要傳達**，否則請一律到 [issue](https://github.com/wdzeng/bot-automation/issues?q=) 區發問，不要寄電子郵件。所謂的涉及隱私，是指訊息內容涉及個資或帳號密碼。
 
-- 電子信箱：me@hyperbola.me
-- [Telegram](https://t.me/hyperbola_cc)
-- 直接發 issue 也可以
+- me@hyperbola.me
 
-若有發現任何錯誤 bug，歡迎開啟 issue 或 PR。感謝您！
+聯繫開發者時，如果情況必要請主動提及你的 GitHub ID，讓開發者協助你！
