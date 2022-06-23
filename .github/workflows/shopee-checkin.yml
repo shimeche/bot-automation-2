@@ -47,3 +47,9 @@ jobs:
           username: ${{ secrets.SHOPEE_USERNAME }}
           password: ${{ secrets.SHOPEE_PASSWORD }}
           login: ${{ (github.event_name == 'schedule') && 'credential' || 'password' }}
+      - name: Notify
+        uses: betahuhn/ifttt-status@v1.0.3
+        with:
+          event: ${{ secrets.IFTTT_EVENT }} # your-webhook-event
+          key: ${{ secrets.IFTTT_TOKEN }} # your-webhook-secret-key
+          status: ${{ job.status }} # do not change
