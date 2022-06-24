@@ -1,4 +1,4 @@
-name: 蝦皮每日簽到
+name: 蝦皮每日簽到2
 
 on:
   workflow_dispatch: ~
